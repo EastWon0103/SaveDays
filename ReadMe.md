@@ -1,8 +1,11 @@
 # SAVEDAYS(팀6)
 ## 테스트 주의 사항
 -SDK Version: **android 10(Api level: 29)**
+
 -실행 환경: **pixel2(android 29 google api 적용버전) / Galaxy s9(자가 핸드폰)**
+
 -사용 api: **Google map Api / Tmap Api / Firebase Api (빌드 시 각 api 키 설정이 필요)**
+
 -프로젝트 사용툴: **Discord(회의) / 카카오톡, Ecampus(자료 공유) / 안드로이드 스튜디오(제작) / 구글 드라이브(문서 공유)**
 
 
