@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/logoIv"
+        :layout_editor_absoluteY="118dp"
+        android:layout_width="229dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/applogo"
+        app:layout_constraintBottom_toTopOf="@+id/et_id_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <EditText
+        android:id="@+id/et_id_register"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="63dp"
+        android:inputType="text"
+        android:hint="이메일"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_pw_register"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_id" />
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#EAD9AD"
+        android:text="회원가입"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pw"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:text="아이디 형식은 이메일 형식으로 입력하세요"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_id_register" />
+
+    <TextView
+        android:id="@+id/tv_pw"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:text="비밀번호는 소문자 최소 6자리 이상으로 입력하세요"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_pw_register" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

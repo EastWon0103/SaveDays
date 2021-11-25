@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SaveDays</string>
+
+    <string name="please_input_search_keyword">검색어를 입력해주세요.</string>
+    <string name="search">검색</string>
+    <string name="empty_result_text">검색 결과가 없습니다.</string>
+    <string name="firebase_web_id">291527928590-1labi47dip671vpstvpsj0d7olvchkfa.apps.googleusercontent.com</string>
+</resources>

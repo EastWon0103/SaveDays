@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/tv_marker"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:src="@drawable/marker_style"-->
+<!--        />-->
+    <TextView
+        android:id="@+id/tv_marker"
+        android:layout_width="120dp"
+        android:layout_height="68dp"
+        android:gravity="top|center"
+        android:paddingTop="7dp"
+        android:background="@drawable/marker_style"
+        android:text="안녕하세요"
+        android:textSize="17dp" />
+
+</FrameLayout>
